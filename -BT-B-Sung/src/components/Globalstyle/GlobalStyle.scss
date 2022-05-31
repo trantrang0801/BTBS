@@ -1,0 +1,180 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+ul {
+    cursor: pointer;
+}
+
+li {
+    cursor: pointer;
+}
+
+:root {
+    --color-text: white;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    
+}
+
+.color {
+    color: white;
+}
+
+.containe {
+    max-width: 1200px;
+}
+
+.dropdown-item:hover {
+    color: #1e2125;
+    background-color: blue !important;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        justify-content: center;
+    }
+}
+
+.footer-2 {
+    background-color: rgba(54, 54, 54, 0.77)
+}
+
+.container-fluid {
+    max-width: 1200px;
+}
+
+.conten_222 {
+    padding: 24px 0;
+}
+
+.img_21e2 {
+    height: 275px !important;
+}
+
+
+.bgr-fff {
+    background-color: #fff;
+}
+
+.container-fluid-213e2 {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.light-h {
+    line-height: 22px;
+}
+
+.fz-home-212s {
+    font-size: 12px;
+}
+
+.conten-12j1 {
+    padding: 24px 0;
+    background-color: #fcf9e2;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: #fcf9e2;
+}
+
+.fz-home-212s1 {
+    font-size: 14px;
+}
+
+.list_item_new {
+    padding: 4px 0;
+    font-size: 14px;
+    border-top: 1px solid #ccc;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.height_180 {
+    height: 180px;
+}
+
+.fz14 {
+    font-size: 14px;
+    padding: 8px 0;
+}
+
+
+.Header_text {
+    display: flex;
+    align-items: center;
+}
+
+.jefj2 {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.img_conten23e {
+    width: 100%;
+    height: 100px;
+}
+
+.awr3d {
+    flex-wrap: wrap !important;
+}
+
+@media (max-width:850px) {
+    .awr3d {
+        display: none !important;
+    }
+
+    .seacher {
+        display: none !important;
+    }
+
+    .Header_text {
+        display: none;
+    }
+
+    .img_mb2w2 {
+        width: 50% !important;
+    }
+
+    .btn-modal {
+        display: block !important;
+    }
+    .container-slider{
+        height: 94px !important;
+    }
+    .btn-slide{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.Dropdown:hover .list {
+    display: block;
+}
+
+.btn-modal {
+    display: none;
+}
+.dwqwe{
+    background: rgba(49,49,49,0.8);
+    color: #ccc;
+    border: none;
+}
